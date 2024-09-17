@@ -1,4 +1,9 @@
 [
+  {
+    "name": "cloudflare",
+    "sort": "other",
+    "course": ""
+  },
  {
     "name": "github",
     "sort": "other",
