@@ -1,4 +1,9 @@
 [
+ {
+    "name": "github",
+    "sort": "other",
+    "course": ""
+  },
     {
     "name": "autman",
     "sort": "docker",
