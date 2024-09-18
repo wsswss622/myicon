@@ -1,5 +1,10 @@
 [
   {
+    "name": "磁力",
+    "sort": "docker",
+    "course": ""
+  },
+  {
     "name": "云盛",
     "sort": "other",
     "course": ""
