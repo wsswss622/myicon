@@ -1,5 +1,10 @@
 [
   {
+    "name": "小米OA",
+    "sort": "other",
+    "course": ""
+  },
+  {
     "name": "Docker",
     "sort": "docker",
     "course": ""
