@@ -1,5 +1,10 @@
 [
   {
+    "name": "Homeassistant",
+    "sort": "docker",
+    "course": ""
+  },
+  {
     "name": "有声小说",
     "sort": "docker",
     "course": ""
