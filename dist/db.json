@@ -1,5 +1,10 @@
 [
   {
+    "name": "哪吒壁纸",
+    "sort": "other",
+    "course": ""
+  },
+  {
     "name": "Homeassistant",
     "sort": "docker",
     "course": ""
