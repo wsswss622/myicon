@@ -1,0 +1,10 @@
+#!name=pt_key
+#!desc=Auto update pt_key
+#!system=ios
+#!arguments=qinglongHost:http://192.168.1.2:5700,clientId:"",clientSecret:""
+
+[Script]
+http-response ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) requires-body=1,script-path=https://raw.githubusercontent.com/wsswss622/myicon/refs/heads/main/public/pt_key.js, argument=qinglongHost={{{qinglongHost}}}&clientId={{{clientId}}}&clientSecret={{{clientSecret}}}
+
+[MITM]
+hostname = %APPEND% api.m.jd.com
