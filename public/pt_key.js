@@ -69,9 +69,6 @@ var jdCookie = CV.match(/pt_pin=.+?;/) + CV.match(/pt_key=.+?;/);
     ]);
 
     // 关闭模块，自需要执行一次
-    await $httpAPI("POST", "v1/modules", { ["pt_key"]: false }, () => $done());
-    $notification.post("pt_key", "", "Update success!");
-    $done();
 })();
 
 function getQinglongToken() {
